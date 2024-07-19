@@ -100,6 +100,17 @@
         margin-top: 10px;
     }
 
+    .project-item p {
+        color: #fff;
+        opacity: 75%;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .project-item h3 {
+        margin-bottom: 0;
+    }
+
     /* Formulário */
     .contact-form {
         margin-top: 40px;
