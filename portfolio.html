@@ -186,14 +186,17 @@
         <div class="section-content">
             <h2 class="section-title">Entre em contato</h2>
 
-            <form action="enviado.html" class="contact-form">
+            <form action="https://formsubmit.co/gustavoemiliano2014@gmail.com" method="POST" class="contact-form">
                 <input required type="text" name="fullName" id="fullName" placeholder="Seu nome" class="form-input" />
 
                 <input required type="email" name="email" id="email" placeholder="Seu e-mail" class="form-input" />
 
                 <textarea required name="message" id="message" rows="5" placeholder="Sua mensagem"
                     class="form-input"></textarea>
-
+                
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_next" value="https://emiliano-portfolio-weld.vercel.app/enviado.html"
+                    />
                 <input type="submit" value="Enviar" class="form-button">
             </form>
         </div>
